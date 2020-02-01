@@ -47,7 +47,7 @@ border:1px solid darkblue;
 <td align="center">
 <div class="filetype" style="background: linear-gradient(#8da8db, #2b4c88);" onclick="window.location.href='uploadscr.php'">
 <center><font size="5" color="white" style="font-family: 'Roboto Slab', serif;"><b>Documents/Files</b></font><hr color="#000000" size="1"><br>
-<img src="images/folder-with-file-icon-hi.png" width="130px"><br><br>
+<img src="images/folder-with-file-icon-hi.png" width="115px"><br><br>
 <font style="margin:5px;" color="white" size="4"><b>File Type:</b> docx, pdf, txt, jpg, c, exe, zip, rar, pptx, gif, php etc.</font>
 </div>
 </td>

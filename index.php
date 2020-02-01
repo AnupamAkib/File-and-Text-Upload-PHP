@@ -47,7 +47,7 @@ border:1px solid darkblue;
 <td align="center">
 <div class="filetype" style="background: linear-gradient(#8da8db, #2b4c88);" onclick="window.location.href='uploadscr.php'">
 <center><font size="5" color="white" style="font-family: 'Roboto Slab', serif;"><b>Documents/Files</b></font><hr color="#000000" size="1"><br>
-<img src="https://akibsoft.000webhostapp.com/upload/images/folder-with-file-icon-hi.png" width="130px"><br><br>
+<img src="images/folder-with-file-icon-hi.png" width="130px"><br><br>
 <font style="margin:5px;" color="white" size="4"><b>File Type:</b> docx, pdf, txt, jpg, c, exe, zip, rar, pptx, gif, php etc.</font>
 </div>
 </td>
@@ -55,7 +55,7 @@ border:1px solid darkblue;
 <td align="center">
 <div class="filetype" style="background: linear-gradient(#977aff, #5906b2);" onclick="window.location.href='uploadtext.php'">
 <center><font size="5" color="white" style="font-family: 'Roboto Slab', serif;"><b>Direct Text</b></font><hr color="#000000" size="1"><br>
-<img src="https://akibsoft.000webhostapp.com/upload/images/Picture1.png" width="110px"><br><br>
+<img src="images/Picture1.png" width="110px"><br><br>
 <font style="margin:5px;" color="white" size="4"><b>File Type:</b> Direct Text file (Pure Text)</font>
 </div>
 </td>

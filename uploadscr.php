@@ -92,7 +92,7 @@ if ($uploadOk == 0) {
 		</div><br>";
 		
 		$fp = fopen("filelist.html", "a");
-fwrite($fp, "<tr><td name='uptd' align='center'>". date("Y/m/d") ."<br>" . date("h:i:sa", time()) ."</td> <td name='uptd' align='center'><img src='images/saved_file.png' width='20px'><br><b>$imageFileType</b></td> <td name='uptd' width='50%'>$_POST[discription]</td><td align='center' name='uptd'>$_POST[name]</td><td align='center' class='dwnld' name='uptd' style='background: #0070c0'><a style='text-decoration:none; color:white;' href='http://akibsoft.000webhostapp.com/upload/files/". basename( $_FILES["fileToUpload"]["name"]). "' target='_blank'>DOWNLOAD</a></td></tr>");
+fwrite($fp, "<tr><td name='uptd' align='center'>". date("Y/m/d") ."<br>" . date("h:i:sa", time()) ."</td> <td name='uptd' align='center'><img src='images/saved_file.png' width='20px'><br><b>$imageFileType</b></td> <td name='uptd' width='50%'>$_POST[discription]</td><td align='center' name='uptd'>$_POST[name]</td><td align='center' class='dwnld' name='uptd' style='background: #0070c0'><a style='text-decoration:none; color:white;' href='files/". basename( $_FILES["fileToUpload"]["name"]). "' target='_blank'>DOWNLOAD</a></td></tr>");
 		
     } else {
 		
